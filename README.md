@@ -7,8 +7,8 @@ You will need to provide a vpc_id value to create the instance in and a default_
 4. Connect to the ec2 instance and clone this repo again, this time to the server.
 5. You need to install docker and docker-compose on the server. You can use the script i prepered under /decker to install it for you, or do it your self with ansible or manually.
 6. After docker is installed and working properly (You might need to logon-logoff), cd into the /compose directory.
-7. run the command:  
+7. From within the compose directory, run the command:
 docker-compose up -d  
 This will spin up 2 containers, one with prometheus and one with grafana.
-8. varify you can access grafana at http://<you-host-ip-address>:3000
+8. varify you can access grafana at http://\<you-host-ip-address\>:3000
 9. Initial user and password are admin\admin. Please change the password and remember it!
