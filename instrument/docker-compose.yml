@@ -1,0 +1,19 @@
+version: "3.4"
+x-logging:
+  &default-logging
+  options:
+    max-size: '10m'
+    max-file: '5'
+  driver: json-file
+
+services:
+  mock-server:
+    build: .
+    image: mock-server:${MOCK_TAG}
+    ports:
+     - ${MOCK_METRICS_PORT}:${MOCK_METRICS_PORT}
+    command: 
+      - ./mock_python -p $MOCK_METRICS_PORT
+#      - ./mock_python -p $METRICS_PORT -l debug      
+    restart: unless-stopped
+    logging: *default-logging
