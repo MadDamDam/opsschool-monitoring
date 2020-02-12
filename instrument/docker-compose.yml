@@ -13,7 +13,7 @@ services:
     ports:
      - ${MOCK_METRICS_PORT}:${MOCK_METRICS_PORT}
     command: 
-      - ./mock_python -p $MOCK_METRICS_PORT
-#      - ./mock_python -p $METRICS_PORT -l debug      
+      - ./mock_python -p ${MOCK_METRICS_PORT} -s ${MOCK_SEMESTER}
+#      - ./mock_python -p ${MOCK_METRICS_PORT} -s ${MOCK_SEMESTER} -l debug      
     restart: unless-stopped
     logging: *default-logging
