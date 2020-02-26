@@ -13,7 +13,7 @@ variable "default_keypair_name" {
 }
 
 variable "monitor_instance_type" {
-  default = "t3.small"
+  default = "t2.micro"
 }
 
 variable "monitor_servers" {
