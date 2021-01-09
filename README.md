@@ -1,7 +1,9 @@
 Visibility & Alerts  
 ===================
 
-Welcome to the Opsschool Visibility and Alerts course repo.
+Welcome to the Opsschool Visibility and Alerts course repo.  
+  
+![!Visibility](https://media.giphy.com/media/JBuDZwKcyrENW/giphy.gif)
 
 Lesson 1 Pre-work  
 -----------------
