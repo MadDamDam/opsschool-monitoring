@@ -22,7 +22,7 @@ Here's some pre-lesson reading, watching, and work for you. Make sure you go ove
 
 5. Complete [this short training](https://www.katacoda.com/courses/prometheus/getting-started) to get a hands on feel of Prometheus and see what it's setup is like.  
 
-### pre-class Setup
+### Pre-class Setup
 
 1. Clone this repo.  
 
