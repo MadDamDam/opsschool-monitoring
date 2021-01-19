@@ -66,3 +66,11 @@ Session 1 Homework
 6. Add a new job config to your Prometheus config to scrape the mock-python service. Restart Prometheus and make sure it scrapes the new data (by looking at the "targets" page on the Prometheus web interface).
 
 7. Add a new dashboard to your Grafana. The dashboard should include a singlestat panel to show the gauge metric, and a graph panel to show the change in the counter metric per second (Hint: use a function).
+
+Session 2 Homework  
+------------------
+
+1. Create a cronjob that queries the amount of logged in users to your monitoring server ( who | wc -l ), and sends a mail to you if at least one user is logged on.
+
+2. Instrument flask-http to return a metric of how many times each of the pages was hit. Also, prepare a dashboard that shows this data over time.
+>**Important hint:** flask debug mode doesn’t play well with start_http_server. Change debug to false in flask-http.
