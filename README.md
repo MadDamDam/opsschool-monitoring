@@ -20,7 +20,7 @@ Here's some pre-session reading, watching, and work for you. Make sure you go ov
 
 4. Now that you know a bit about monitoring, let's get into specifics. As i mentioned, we will be working with Prometheus. To learn about Prometheus and what it's good for watch [this short video](https://www.youtube.com/watch?v=cwRmXqXKGtk) by... You guessed it, Brian Brazil.    
 
-5. Complete [this short training](https://www.katacoda.com/courses/prometheus/getting-started) to get a hands on feel of Prometheus and see what it's setup is like.  
+5. Read and watch [this intro to Prometheus](https://prometheus.io/docs/tutorials/getting_started/) to get a hands on feel of Prometheus and see what it's setup is like.  
 
 ### Pre-class Setup
 
