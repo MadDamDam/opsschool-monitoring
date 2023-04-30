@@ -22,7 +22,7 @@ sudo mkdir /etc/systemd/system/docker.service.d
 sudo tee /etc/systemd/system/docker.service.d/docker.root.conf &>/dev/null << EOF
 [Service]
 ExecStart=
-ExecStart=/usr/bin/dockerd -g /data/docker-root -H fd://
+ExecStart=/usr/bin/dockerd --data-root /data/docker-root -H fd://
 EOF
 
 sudo systemctl daemon-reload
